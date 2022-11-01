@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.container {
+	width: 550px;
+	margin-top: 20px;
+}
+
+h1{
+	color: pink;
+}
+
+.table {
+	width:550px;
+	border: 20px solid pink;
+	margin-top: 20px;
+}
+
+tr {
+	border: 2px solid pink;
+}
