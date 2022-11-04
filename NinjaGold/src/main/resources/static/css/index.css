@@ -1,0 +1,94 @@
+@charset "ISO-8859-1";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+header{
+    width: 90%;
+    height: 50px;
+    padding: 1%;
+    margin: 2% auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h4 {
+    height: 20px;
+    margin-right: 3%;
+
+}
+
+.output {
+    width: 15%;
+    height: 30px;
+    padding: 1%;
+    border:  2px solid black;
+}
+
+main {
+    width: 90%;
+    height: 200px;
+    margin: 3% auto;
+    padding: 1% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    width: 20%;
+    height: 300px;
+    padding: 1%;
+    border: 3px solid black;
+    text-align: center;
+}
+
+h1, h3, p, form{
+    margin: 10%;
+}
+
+button {
+    width: 50%;
+    height: 35px;
+    margin: 1%;
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px 2px black;
+    background-color: #8080ff;
+    cursor: pointer;
+}
+
+footer {
+    width: 90%;
+    height: 150px;
+    margin: 3% auto;
+}
+
+.activities {
+    width: 100%;
+    height: 300px;
+    margin: 1% auto;
+    border: 2px solid black;
+    overflow-y: scroll;
+}
+
+.activities .activity {
+	margin:10px;
+	color: rgb(17, 190, 11);
+}
+
+.activity, .red{
+    height: 20px;
+    margin: 0;
+}
+
+.activities .red {
+	margin:10px;
+	color: red;
+}
