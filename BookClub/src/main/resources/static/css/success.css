@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.title {
+	display:flex;
+	justify-content: space-between;
+	margin-top:20px;
+}
+
+.addbook {
+	display:flex;
+	justify-content: space-between;
+	margin-top:20px;
+}
+
+.table {
+	margin-top:20px;
+	
+}
