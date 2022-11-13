@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.title {
+	display:flex;
+	justify-content: space-between;
+	margin-top:20px;
+}
+
+form {
+	width:50%;
+}
+
+p {
+	display: flex;
+	justify-content: space-between;
+	font-size:20px;
+	font-weight: 600;
+	flex-wrap: wrap;
+	
+}
+
+p label {
+	margin-right:60px;
+}
+
+p input {
+	width:400px;
+	border: 2px solid black;
+	font-size:20px;
+}
+
+.thoughts textarea {
+	width:400px;
+	height:150px;
+	border: 2px solid black;
+	font-size:20px;
+}
+
+.button {
+	width:100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.btn {
+	background-color: blue;
+	color: white;
+	box-shadow: 3px 5px 3px black;
+}
+
+.btn:hover {
+	background-color:#353aff;
+	color:white;
+}

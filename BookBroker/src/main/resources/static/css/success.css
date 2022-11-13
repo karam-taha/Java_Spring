@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.title {
+	display:flex;
+	justify-content: space-between;
+	margin-top:20px;
+}
+
+.addbook {
+	display:flex;
+	justify-content: space-between;
+	margin-top:20px;
+}
+
+.table {
+	margin-top:20px;
+	
+}
+
+.actions {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+a {
+	color: blue;
+}
+
+.delete {
+	background-color: white;
+	border: none;
+	color: blue;
+	text-decoration: underline;
+}

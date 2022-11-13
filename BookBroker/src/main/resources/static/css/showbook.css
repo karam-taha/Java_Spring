@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.title {
+	display:flex;
+	justify-content: space-between;
+	margin-top:20px;
+}
+
+.container h4 {
+	margin-top:20px;
+}
+.main {
+	margin-top:50px;
+}
+
+.line {
+	background-color: black;
+	width: 50%;
+	height: 4px;
+	border-radius: 50%;
+	margin-top:40px;
+	margin-left:20px;
+}
+
+.thoughts {
+	margin-top:20px;
+	margin-left:20px;
+	width:50%;
+}
+
+.buttons {
+	width:50%;
+	display: flex;
+	justify-content: flex-end;
+	margin-left:20px;
+}
+
+.btn {
+	background-color: blue;
+	color: white;
+	box-shadow: 3px 5px 3px black;
+	margin:10px;
+	margin-top:20px;
+}
+
+.btn:hover {
+	background-color:#353aff;
+	color:white;
+}
+
