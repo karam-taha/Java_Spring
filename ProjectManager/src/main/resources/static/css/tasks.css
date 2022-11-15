@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+.header {
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	font-size: 25px;
+	margin-top:20px;
+}
+
+tr {
+	display:flex;
+	justify-content: space-between;
+	width: 440px;
+}
+
+td {
+	width: 300px;
+	display: flex;
+	margin-top:10px;
+	font-size:20px;
+}
+
+.one {
+	margin-right:80px;
+}
+
+.two {
+	margin-right:40px;
+}
+
+.three {
+	margin-right:60px;
+}
+
+.second-main {
+	margin-top:50px;
+	display: flex;
+	gap:20px;
+}

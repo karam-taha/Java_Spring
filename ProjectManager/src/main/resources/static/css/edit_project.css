@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+
+.header {
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	font-size: 25px;
+	margin-top:20px;
+}
+
+form {
+	margin-top:40px;
+}
+
+tr {
+	display:flex;
+	justify-content: space-between;
+	width: 440px;
+}
+
+td {
+	display: flex;
+	flex-direction: column;
+	margin-top:10px;
+	font-size:20px;
+}
+
+td input {
+	width: 254px;
+}
+
+.btn {
+	background-color:blue;
+	color:white;
+	width:90px;
+	height:50px;
+	display: flex;
+	justify-content: center
+}
+
+.btn:hover {
+	background-color:#0000a0;
+	color:white;
+}
+
+.buttons {
+	display: flex;
+	justify-content: flex-end;
+	gap:20px;
+}
+
+.buttons td a {
+	display: flex;
+	align-items:center;
+	justify-content: center
+}

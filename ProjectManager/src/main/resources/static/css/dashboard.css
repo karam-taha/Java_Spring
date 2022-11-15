@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+
+body {
+	display: flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+	width:100%;
+	background-color: #e6e6e6;
+}
+
+.header {
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	font-size: 25px;
+	margin-top:20px;
+}
+
+main {
+	display: flex;
+	width: 60%;
+	justify-content: space-between;
+}
+
+.table {
+	margin-top:20px;
+}
+
+h1 {
+	color:red;
+}
+
+.title {
+	font-size: 45px;
+}
